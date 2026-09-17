@@ -1,4 +1,4 @@
-# [PatiTrack] — Gestor de PQRS
+# PatiTrack — Gestor de PQRS
 
 ---
 
@@ -28,7 +28,7 @@
 
 ## 3. Nombre del proyecto y detalles
 
-**Nombre del proyecto:** [PatiTrack]
+**Nombre del proyecto:** PatiTrack
 
 PatiTrack es un sistema de consola desarrollado en Python que digitaliza el registro y seguimiento de las PQRS, obre la atención de perros y gatos en los distintos campus de la Universidad de Antioquia. El nombre combina "pati" (de "patitas", en alusión a los perros y gatos atendidos) con "Track", que refleja la función central del sistema: dar trazabilidad a cada radicado desde su registro hasta su solución. En lugar del papel y lápiz usados hasta ahora, PatiTrack permite radicar cada solicitud con un consecutivo único e independiente por tipo, calcular automáticamente su fecha máxima de respuesta (30 días calendario), consultar el estado de los casos activos, imprimir comprobantes de radicado normalizados y generar estadísticas que apoyan la gestión.
 
