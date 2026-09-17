@@ -6,11 +6,11 @@
 
 | Nombre completo | Rol en el equipo |
 |---|---|
-| [Kristian Corcho Montes] | Lider de equipo |
-| [Danny Milena Garcia] | Control de Versiones |  
-| [Danilo Castro Calleja] | Control de Interfaz  |
-| [Jose Monsalve] | Documentacion |
-| [Carlos Julio] | Revison Documentacion |
+| Kristian Corcho Montes | Lider de equipo |
+| Danny Milena Garcia | Control de Versiones |  
+| Danilo Castro Calleja | Control de Interfaz  |
+| Jose Monsalve | Documentacion |
+| Carlos Julio | Revison Documentacion |
 
 > Curso: Algoritmia y Programación — Proyecto Integrador 2026-2
 > Docente: John Heider Dávila
@@ -20,11 +20,11 @@
 
 | Integrante | Programa académico | Habilidades / fortalezas |
 |---|---|---|
-| [Kristian Corcho Montes] | [Ingenieria Industrial] | [Ej: lógica de programación, liderazgo de equipo] |
-| [Danny Milena Garcia] | [Ingenieria Industrial] | [Ej: documentación, control de versiones] |
-| [Danilo Castro Calleja] | [Ingenieria Industrial] | [Ej: estructuras de datos, pruebas] |
-| [Jose Monsalve] | [Ingenieria Industrial] | [Ej: diseño de interfaces de consola] |
-| [Carlos Julio] | [Ingenieria Industrial] | [Ej: manejo de archivos, estadística] |
+| Kristian Corcho Montes | Ingenieria Industrial | [Ej: lógica de programación, liderazgo de equipo] |
+| Danny Milena Garcia | Ingenieria Industrial | [Ej: documentación, control de versiones] |
+| Danilo Castro Calleja | Ingenieria Industrial | [Ej: estructuras de datos, pruebas] |
+| Jose Monsalve | Ingenieria Industrial | [Ej: diseño de interfaces de consola] |
+| Carlos Julio | Ingenieria Industrial | [Ej: manejo de archivos, estadística] |
 
 ## 3. Nombre del proyecto y detalles
 
