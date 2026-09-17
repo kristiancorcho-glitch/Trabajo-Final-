@@ -20,9 +20,9 @@
 
 | Integrante | Programa académico | Habilidades / fortalezas |
 |---|---|---|
-| Kristian Corcho Montes | Ingenieria Industrial | [Ej: lógica de programación, liderazgo de equipo] |
-| Danny Milena Garcia | Ingenieria Industrial | [Ej: documentación, control de versiones] |
-| Danilo Castro Calleja | Ingenieria Industrial | [Ej: estructuras de datos, pruebas] |
+| Kristian Corcho Montes | Ingenieria Industrial | liderazgo de equipo, pensamiento lógico, resolución de problemas, organización y capacidad de análisis. |
+| Danny Milena Garcia | Ingenieria Industrial | Manejo de GitHub, organización de cambio |
+| Danilo Castro Calleja | Ingenieria Industrial | Sinergia, arquitecura modular, optimizacion de rendimento diseño adaptativo |
 | Jose Monsalve | Ingenieria Industrial | [Ej: diseño de interfaces de consola] |
 | Carlos Julio | Ingenieria Industrial | [Ej: manejo de archivos, estadística] |
 
