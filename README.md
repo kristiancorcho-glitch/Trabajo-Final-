@@ -24,7 +24,7 @@
 | Danny Milena Garcia | Ingenieria Industrial | Manejo de GitHub, organización de cambio |
 | Danilo Castro Calleja | Ingenieria Industrial | Sinergia, arquitecura modular, optimizacion de rendimento diseño adaptativo |
 | Jose Monsalve | Ingenieria Industrial | [Ej: diseño de interfaces de consola] |
-| Carlos Julio | Ingenieria Industrial | [Ej: manejo de archivos, estadística] |
+| Carlos Julio | Ingenieria Industrial | Capacidad de resolucion y apredizaje rapido de nuevos conocimentos |
 
 ## 3. Nombre del proyecto y detalles
 
