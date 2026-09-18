@@ -22,7 +22,6 @@
 
 ![Diagrama de Gantt del proyecto](images/gantt_patitrack.png)
 
-*(Captura de pantalla de `Gantt.xlsx`. Guarda la imagen como `gantt_patitrack.png` dentro de la carpeta `images/` del repositorio para que se vea aquí.)*
 
 Fechas clave según el cronograma oficial del curso (`Plan_de_Accion_ALyPr_2026-2`):
 
