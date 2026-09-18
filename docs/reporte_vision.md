@@ -27,6 +27,4 @@ PatiTrack recibe las PQRS por múltiples canales y las procesa manualmente, lo q
 - **Seguimiento:** cada PQRS obtiene un radicado que certifica los datos proporcionados y la fecha de creación, permitiendo un seguimiento que conlleva a la respuesta en el tiempo oportuno.
 - **Efectividad:** evita que la información se pierda, al ser un programa que clasifica las solicitudes para PatiTrack.
 
-## Alcance
 
-Incluye el registro y consulta de PQRS, el cambio de estado (Registrada → En proceso → Solucionada), la impresión de radicados y la generación de cinco estadísticas (una obligatoria: promedio de días de respuesta). No incluye interfaz gráfica, base de datos relacional ni notificaciones automáticas a los solicitantes — el almacenamiento es mediante archivos planos, según lo definido por el docente.
