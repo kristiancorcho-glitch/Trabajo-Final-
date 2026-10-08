@@ -26,7 +26,7 @@ Sistema de consola en Python para el registro, consulta y seguimiento de Peticio
 | Kristian Corcho Montes | Ingeniería Industrial | 6 | Seccional Bajo Cauca | Liderazgo de equipo, pensamiento lógico, resolución de problemas, organización y capacidad de análisis |
 | Danny Milena García Gonzales | Ingeniería Industrial | [Semestre] | [Campus] | Manejo de GitHub, organización de cambios |
 | Danilo Castro Calleja | Ingeniería Industrial | [Semestre] | [Campus] | Sinergia, arquitectura modular, optimización de rendimiento, diseño adaptativo |
-| Carlos Javier Julio Verdeza | Ingeniería Industrial | [Semestre] | [Campus] | Capacidad de resolución y aprendizaje rápido de nuevos conocimientos |
+| Carlos Javier Julio Verdeza | Ingeniería Industrial | 4  | Seccional Bajo Cauca | Capacidad de resolución y aprendizaje rápido de nuevos conocimientos |
 
 ## 3. Nombre del proyecto y detalles
 
