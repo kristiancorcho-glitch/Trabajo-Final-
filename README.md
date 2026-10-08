@@ -22,7 +22,7 @@
 | Kristian Corcho Montes | Ingenieria Industrial | liderazgo de equipo, pensamiento lógico, resolución de problemas, organización y capacidad de análisis. |
 | Danny Milena Garcia | Ingenieria Industrial | Manejo de GitHub, organización de cambio |
 | Danilo Castro Calleja | Ingenieria Industrial | Sinergia, arquitecura modular, optimizacion de rendimento diseño adaptativo |
-| Carlos Julio | Ingenieria Industrial | Capacidad de resolucion y apredizaje rapido de nuevos conocimentos |
+| Carlos Javier Julio | Ingenieria Industrial | Capacidad de resolucion y apredizaje rapido de nuevos conocimentos |
 
 ## 3. Nombre del proyecto y detalles
 
