@@ -7,9 +7,9 @@
 | Nombre completo | Rol en el equipo |
 |---|---|
 | Kristian Corcho Montes | Lider de equipo |
-| Danny Milena Garcia | Control de Versiones |  
+| Danny Milena Garcia Gonzalez | Control de Versiones |  
 | Danilo Castro Calleja | Control de Interfaz  |
-| Carlos Javier Julio | Revison Documentacion |
+| Carlos Javier Julio Verdezo | Revison Documentacion |
 
 > Curso: Algoritmia y Programación — Proyecto Integrador 2026-2
 > Docente: John Heider Dávila
@@ -20,9 +20,9 @@
 | Integrante | Programa académico | Habilidades / fortalezas |
 |---|---|---|
 | Kristian Corcho Montes | Ingenieria Industrial | liderazgo de equipo, pensamiento lógico, resolución de problemas, organización y capacidad de análisis. |
-| Danny Milena Garcia | Ingenieria Industrial | Manejo de GitHub, organización de cambio |
+| Danny Milena Garcia Gonzalez | Ingenieria Industrial | Manejo de GitHub, organización de cambio |
 | Danilo Castro Calleja | Ingenieria Industrial | Sinergia, arquitecura modular, optimizacion de rendimento diseño adaptativo |
-| Carlos Javier Julio | Ingenieria Industrial | Capacidad de resolucion y apredizaje rapido de nuevos conocimentos |
+| Carlos Javier Julio Verdeza | Ingenieria Industrial | Capacidad de resolucion y apredizaje rapido de nuevos conocimentos |
 
 ## 3. Nombre del proyecto y detalles
 
