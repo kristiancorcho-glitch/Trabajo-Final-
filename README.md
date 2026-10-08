@@ -9,7 +9,7 @@
 | Kristian Corcho Montes | Lider de equipo |
 | Danny Milena Garcia | Control de Versiones |  
 | Danilo Castro Calleja | Control de Interfaz  |
-| Carlos Julio | Revison Documentacion |
+| Carlos Javier Julio | Revison Documentacion |
 
 > Curso: Algoritmia y Programación — Proyecto Integrador 2026-2
 > Docente: John Heider Dávila
