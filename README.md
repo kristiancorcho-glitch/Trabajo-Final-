@@ -66,3 +66,6 @@ Consulta el archivo [`LICENSE`](./LICENSE) para el texto completo.
 - [Reporte de visión](docs/reporte_vision.md)
 - [Especificación de requisitos](docs/especificacion_requisitos.md)
 - [Plan de proyecto](docs/plan_proyecto.md)
+
+## Seguimiento del desarrollo 
+- [Plan de versionado](docs/plan_versionado.md)
