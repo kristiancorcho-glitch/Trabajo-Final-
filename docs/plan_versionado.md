@@ -1,6 +1,6 @@
 # Plan de Versionado
 
-**Proyecto:** PatiTrack — Gestor de PQRS (MEPEGA)  
+**Proyecto:** PatiTrack — Gestor de PQRS  
 **Curso:** Algoritmia y Programación — Proyecto Integrador 2026-2
 
 ## Objetivo
