@@ -9,6 +9,11 @@ raíz del proyecto y ejecute:
 python -m src.main
 ```
 
+En Windows también puede iniciar PatiTrack haciendo doble clic en `run.bat`,
+ubicado en la carpeta raíz del proyecto. El iniciador cambia automáticamente
+a esa carpeta, así que el proyecto puede estar dentro de otra ruta o tener otro
+nombre.
+
 El programa funciona en consola y presenta un menú con cinco opciones.
 
 ## Registrar una PQRS
