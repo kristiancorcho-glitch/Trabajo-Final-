@@ -1,0 +1,2 @@
+1;Petición;Kristian Corcho Montes;CC;1137975130;Celular;3205206936;kcorchomontes@gmail.com;krr 62E;2026-10-23;Presencial;perrito;aqhjerjrfjfbajkdjaeljafdsajlfiajilajfalsfafalsdjad;Perro;Campus Medellín - Ciudad Universitaria;2026-11-22;Solucionada;2026-11-23
+2;Petición;Andres Montes Cali;TI;1137975130;Celular;3205206946;sophiaparra@gmail.com;;2026-11-23;Presencial;prueba 2;esgjajsdahbhabkskjncjkanjsflasdjlfjei ian ldalfhld n lnalnalfnldbnlja na alnfjaldsfnflaefan;Perro;Campus Medellín - Ciudad Universitaria;2026-12-23;Registrada;
