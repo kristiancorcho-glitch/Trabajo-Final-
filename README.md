@@ -17,6 +17,7 @@ Sistema de consola en Python para el registro, consulta y seguimiento de Peticio
 > Universidad de Antioquia — Facultad de Ingeniería
 >
 > *José Monsalve participó en la Entrega 1 (documentación) y canceló la materia posteriormente, por lo cual no continúa en el equipo para la Entrega 2.*
+
 > El equipo activo está conformado por Kristian, Danny y Carlos. La salida de integrantes y la redistribución de responsabilidades constan en el [Acta de Acuerdo](Actas/Acta%20de%20Acuerdo/ACTA%20DE%20ACUERDO%20-%20GRUPO%20DE%20TRABAJO.pdf) y en el Acta de Responsabilidad actualizada.
 
 ## 2. Vínculos académicos y descripción
