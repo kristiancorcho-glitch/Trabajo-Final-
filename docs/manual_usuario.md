@@ -16,6 +16,29 @@ nombre.
 
 El programa funciona en consola y presenta un menú con cinco opciones.
 
+## Ejecución opcional en Google Colab
+
+Esta opción requiere que la versión actualizada del proyecto esté disponible
+en GitHub. En un cuaderno nuevo de Colab, ejecute estas instrucciones en dos
+celdas separadas:
+
+```python
+!git clone https://github.com/kristiancorcho-glitch/Trabajo-Final-.git
+%cd /content/Trabajo-Final-
+```
+
+```python
+from src.main import ejecutar_menu
+
+ejecutar_menu()
+```
+
+Las respuestas a las preguntas del menú se ingresan en la salida de la segunda
+celda. Los archivos de datos quedan en el entorno temporal de Colab y pueden
+perderse cuando este se reinicie o se elimine. Descargue los archivos que
+necesite conservar antes de cerrar la sesión. Para demostraciones, use datos
+ficticios en lugar de información personal.
+
 ## Registrar una PQRS
 
 1. Seleccione **1. Registrar PQRS**.
