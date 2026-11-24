@@ -57,13 +57,15 @@ Consulta el archivo [`LICENSE`](./LICENSE) para el texto completo.
 ├── docs/     # Documentación y Manual de Usuario
 ├── images/   # Logo y diagramas
 └── data/     # Peticion.txt, Queja.txt, Reclamo.txt, Sugerencia.txt
+
 ```
 
-## Documentación adicional (Entrega 1)
+## Documentación del proyecto
 
 - [Reporte de visión](docs/reporte_vision.md)
 - [Especificación de requisitos](docs/especificacion_requisitos.md)
 - [Plan de proyecto](docs/plan_proyecto.md)
+- [Manual de usuario](docs/manual_usuario.md)
 
 ## Seguimiento del desarrollo 
 - [Plan de versionado](docs/plan_versionado.md)
