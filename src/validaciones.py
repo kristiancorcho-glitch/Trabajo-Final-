@@ -18,7 +18,7 @@ TIPOS_MASCOTA = ("Perro", "Gato")
 ESTADOS_PQRS = ("Registrada", "En proceso", "Solucionada")
 CAMPUS = (
     "Campus Medellín - Ciudad Universitaria",
-    \n"Campus Medellín - Ciudadela Robledo",
+    "Campus Medellín - Ciudadela Robledo",
     "Campus en el Área de la salud",
     "Campus Medellín - Sede de Posgrado",
     "Campus Medellín - Edificio San Ignacio",
