@@ -2,8 +2,20 @@
 
 ## Requisitos y ejecución
 
-Se requiere Python 3. Para ejecutar el programa, abra una terminal en la carpeta
-raíz del proyecto y ejecute:
+### Preparar el equipo
+
+Antes de ejecutar PatiTrack:
+
+1. Instale Python 3 directamente o instale Anaconda, que incluye Python.
+   No es necesario instalar ambos.
+2. Instale Visual Studio Code (Visual) como editor de código.
+3. Si usa Visual Studio Code, instale o habilite la extensión oficial de
+   Python y seleccione el intérprete de Python instalado.
+
+### Iniciar el programa
+
+Con Python disponible, abra una terminal en la carpeta raíz del proyecto y
+ejecute:
 
 ```powershell
 python -m src.main
@@ -26,6 +38,16 @@ celdas separadas:
 !git clone https://github.com/kristiancorcho-glitch/Trabajo-Final-.git
 %cd /content/Trabajo-Final-
 ```
+
+La celda de clonación se ejecuta una sola vez por entorno. Si la carpeta ya
+existe, no vuelva a clonarla: actualice la copia con:
+
+```python
+%cd /content/Trabajo-Final-
+!git pull origin main
+```
+
+Después puede ejecutar la celda del menú:
 
 ```python
 from src.main import ejecutar_menu
