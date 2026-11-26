@@ -16,14 +16,14 @@ Sistema de consola en Python para el registro, consulta y seguimiento de Peticio
 > Docente: John Heider Dávila
 > Universidad de Antioquia — Facultad de Ingeniería
 >
-> El equipo activo está conformado por Kristian, Danny y Carlos. La salida de integrantes y la redistribución de responsabilidades constan en el [Acta de Acuerdo](Actas/Acta%20de%20Acuerdo/ACTA%20DE%20ACUERDO%20-%20GRUPO%20DE%20TRABAJO.pdf) y en el Acta de Responsabilidad actualizada.
+> El equipo activo está conformado por Kristian Corcho, Danny Milena Garcia y Carlos Julio Verdeza. La salida de integrantes y la redistribución de responsabilidades constan en el [Acta de Acuerdo](Actas/Acta%20de%20Acuerdo/ACTA%20DE%20ACUERDO%20-%20GRUPO%20DE%20TRABAJO.pdf) y en el Acta de Responsabilidad actualizada.
 
 ## 2. Vínculos académicos y descripción
 
 | Integrante | Programa académico | Semestre | Campus | Habilidades / fortalezas |
 |---|---|---|---|---|
 | Kristian Corcho Montes | Ingeniería Industrial | 6 | Seccional Bajo Cauca | Liderazgo de equipo, pensamiento lógico, resolución de problemas, organización y capacidad de análisis |
-| Danny Milena García Gonzales | Ingeniería Industrial | 5 | Seccional Carmen de Viboral | Manejo de GitHub, organización de cambios |
+| Danny Milena García Gonzales | Ingeniería Industrial | 5 | Seccional Carmen de Viboral | Responsable, curiosa y comprometida con el aprendizaje. |
 | Carlos Javier Julio Verdeza | Ingeniería Industrial | 4  | Seccional Bajo Cauca | Capacidad de resolución y aprendizaje rápido de nuevos conocimientos |
 
 ## 3. Nombre del proyecto y detalles
