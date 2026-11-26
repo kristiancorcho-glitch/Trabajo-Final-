@@ -1,5 +1,6 @@
 """Captura y muestra la información completa de una PQRS."""
 
+import textwrap
 from datetime import timedelta
 
 from .captura_solicitante import pedir_dato
@@ -125,6 +126,14 @@ def mostrar_datos_pqrs(datos):
     print(f"Fecha máxima respuesta:  {datos['fecha_max_respuesta']:%d/%m/%Y}")
     print(f"Canal de recepción:      {datos['canal_recepcion']}")
     print(f"Asunto:                  {datos['asunto_titulo']}")
-    print(f"Descripción:             {datos['descripcion_detallada']}")
+    print("Descripción:")
+    print(
+        textwrap.fill(
+            datos["descripcion_detallada"],
+            width=70,
+            initial_indent="    ",
+            subsequent_indent="    ",
+        )
+    )
     print(f"Tipo de mascota:         {datos['tipo_mascota']}")
     print(f"Campus relacionado:      {datos['campus_relacionado']}")
