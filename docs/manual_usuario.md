@@ -2,29 +2,100 @@
 
 ## Requisitos y ejecución
 
-### Preparar el equipo
+Esta guía explica cómo preparar un equipo Windows, abrir el proyecto y ejecutar
+PatiTrack. No es necesario que la carpeta tenga un nombre específico.
 
-Antes de ejecutar PatiTrack:
+### 1. Instalar Python o Anaconda
 
-1. Instale Python 3 directamente o instale Anaconda, que incluye Python.
-   No es necesario instalar ambos.
-2. Instale Visual Studio Code (Visual) como editor de código.
-3. Si usa Visual Studio Code, instale o habilite la extensión oficial de
-   Python y seleccione el intérprete de Python instalado.
+PatiTrack está escrito en Python y utiliza módulos incluidos con Python; no
+requiere instalar paquetes adicionales con pip.
 
-### Iniciar el programa
+Elija una de estas alternativas:
 
-Con Python disponible, abra una terminal en la carpeta raíz del proyecto y
-ejecute:
+- **Python directamente:** descargue Python 3 desde
+  [python.org](https://www.python.org/downloads/windows/). Para este proyecto
+  puede usar Python 3.12, que ya se utilizó durante el desarrollo.
+- **Anaconda:** descárguelo desde
+  [anaconda.com](https://www.anaconda.com/download). Anaconda incluye Python y
+  herramientas como Jupyter. No hace falta instalar también Python por
+  separado.
 
-```powershell
-python -m src.main
-```
+Durante la instalación, siga las indicaciones del instalador oficial. Si la
+computadora pertenece a la universidad, puede que se necesite autorización para
+instalar programas; en ese caso, consulte al administrador del equipo.
 
-En Windows también puede iniciar PatiTrack haciendo doble clic en `run.bat`,
-ubicado en la carpeta raíz del proyecto. El iniciador cambia automáticamente
-a esa carpeta, así que el proyecto puede estar dentro de otra ruta o tener otro
-nombre.
+Para comprobar la instalación, abra PowerShell o Anaconda Prompt y escriba:
+
+    python --version
+
+Debe aparecer una versión de Python 3. Si Windows indica que no reconoce
+python, abra Anaconda Prompt si eligió Anaconda, o revise la instalación de
+Python y vuelva a abrir la terminal.
+
+### 2. Instalar Visual Studio Code
+
+Descargue [Visual Studio Code](https://code.visualstudio.com/download) e
+instálelo con las opciones recomendadas. En Visual, abra la vista de
+extensiones con **Ctrl+Shift+X**, busque la extensión **Python** publicada por
+Microsoft e instálela. Visual Studio Code es el editor; la extensión agrega
+funciones para Python, pero no reemplaza al intérprete que instaló en el paso
+anterior. La guía oficial de VS Code explica también cómo elegir un intérprete:
+[Getting Started with Python in VS Code](https://code.visualstudio.com/docs/python/python-tutorial).
+
+### 3. Elegir el intérprete en Visual Studio Code
+
+1. Abra la paleta de comandos con **Ctrl+Shift+P**.
+2. Escriba **Python: Select Interpreter** y selecciónelo.
+3. Elija el Python 3 instalado o el entorno de Anaconda que usará.
+4. Abra **Terminal > New Terminal** y escriba python --version para confirmar
+   que la terminal reconoce el mismo intérprete.
+
+Si se cambia de intérprete, cierre las terminales abiertas y cree una nueva
+para que se active la selección.
+
+### 4. Abrir la carpeta correcta del proyecto
+
+Descargue el proyecto desde GitHub o use la copia recibida del equipo. Si lo
+descarga como ZIP, extráigalo primero. En Visual Studio Code, seleccione
+**File > Open Folder** y abra la carpeta raíz que contiene **src/**, **docs/**,
+**data/** y **run.bat**. No abra únicamente **src/**: el menú se ejecuta como
+parte del paquete src.
+
+La ubicación y el nombre de la carpeta pueden ser distintos en cada equipo.
+PatiTrack guarda sus archivos dentro de la carpeta **data/** del proyecto.
+
+### 5. Ejecutar PatiTrack
+
+**Opción A — doble clic en Windows:** haga doble clic en **run.bat**, ubicado
+en la carpeta raíz. El archivo cambia automáticamente a la carpeta del
+proyecto y ejecuta el menú. Esta opción necesita que Windows encuentre el
+comando python.
+
+**Opción B — terminal de Visual Studio Code:** abra **Terminal > New
+Terminal**, confirme que la ruta mostrada corresponde a la carpeta raíz del
+proyecto y ejecute:
+
+    python -m src.main
+
+Si usa Anaconda y el comando anterior no reconoce el entorno seleccionado,
+ejecútelo desde Anaconda Prompt, después de ubicarse en la carpeta raíz.
+
+### Solución de problemas de inicio
+
+- **No module named src:** la terminal está en otra carpeta. Abra en Visual
+  Studio Code la raíz del proyecto y vuelva a ejecutar el comando.
+- **python no se reconoce:** seleccione el intérprete correcto, abra una
+  terminal nueva o use Anaconda Prompt si instaló Anaconda.
+- **run.bat no encuentra Python:** ejecute el comando desde Visual Studio Code
+  con el intérprete seleccionado o desde Anaconda Prompt.
+- **El repositorio ya existe al ejecutar git clone:** no repita la clonación.
+  Entre a la carpeta descargada y actualícela con git pull origin main.
+- **Aparece un error de sintaxis en un archivo:** confirme que está usando una
+  copia actualizada del repositorio y no una copia anterior guardada en otra
+  carpeta.
+
+Para probar el programa, use información ficticia. Los registros se guardan
+como texto en **data/**; evite subir al repositorio datos personales reales.
 
 El programa funciona en consola y presenta un menú con cinco opciones.
 
