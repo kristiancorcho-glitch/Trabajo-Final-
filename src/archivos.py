@@ -123,6 +123,45 @@ def _guardar_todos(tipo_solicitud, registros):
         if temporal is not None and temporal.exists():
             temporal.unlink()
 
+def _guardar_copia_semanal(tipo_solicitud, registro):
+    """Guarda una PQRS en la carpeta correspondiente a su semana."""
+
+    fecha = registro["fecha_radicacion"]
+
+    # Convertir la fecha al formato que Python puede reconocer
+    if isinstance(fecha, (date, datetime)):
+        fecha_obj = fecha
+    else:
+        try:
+            fecha_obj = datetime.fromisoformat(str(fecha))
+        except ValueError:
+            fecha_obj = datetime.strptime(str(fecha), "%d/%m/%Y")
+
+    # Obtener el año y la semana
+    anio, semana, _ = fecha_obj.isocalendar()
+
+    # Crear la carpeta del año y de la semana
+    carpeta_semana = CARPETA_DATA / str(anio) / f"Semana_{semana:02d}"
+    carpeta_semana.mkdir(parents=True, exist_ok=True)
+
+    # Crear los cuatro archivos de la semana
+    for _, nombre_archivo in ARCHIVOS_POR_TIPO.values():
+        (carpeta_semana / nombre_archivo).touch(exist_ok=True)
+
+    # Identificar el archivo correspondiente al tipo de PQRS
+    _, nombre_archivo = _normalizar_tipo(tipo_solicitud)
+    ruta_semanal = carpeta_semana / nombre_archivo
+
+    # Guardar el registro en el archivo semanal
+    with ruta_semanal.open("a", encoding="utf-8", newline="") as archivo:
+        escritor = csv.writer(
+            archivo, delimiter=";", quotechar='"', lineterminator="\n"
+        )
+        escritor.writerow(
+            [registro["id"]]
+            + [_a_texto(registro.get(campo)) for campo in CAMPOS_REGISTRO]
+        )
+
 
 def guardar_registro(tipo_solicitud, datos):
     """Guarda una PQRS y devuelve su ID consecutivo independiente por archivo."""
@@ -137,6 +176,7 @@ def guardar_registro(tipo_solicitud, datos):
     nuevo["fecha_solucion"] = nuevo.get("fecha_solucion") or ""
     registros.append({"id": nuevo_id, **nuevo})
     _guardar_todos(tipo_oficial, registros)
+    _guardar_copia_semanal(tipo_oficial, {"id": nuevo_id, **nuevo})
     return nuevo_id
 
 
